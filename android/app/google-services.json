@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "83984534471",
+    "project_id": "overcooked-d5f12",
+    "storage_bucket": "overcooked-d5f12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83984534471:android:cbd20634f2212ca98827e2",
+        "android_client_info": {
+          "package_name": "com.mlt.overcooked_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe1QYo8EBWGl76RlVG8DENrD7FFCOZ4W0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83984534471:android:54ccc62fc53586fd8827e2",
+        "android_client_info": {
+          "package_name": "com.mlt.overcooked_client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe1QYo8EBWGl76RlVG8DENrD7FFCOZ4W0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
