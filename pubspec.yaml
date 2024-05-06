@@ -25,9 +25,11 @@ dependencies:
     path: packages/user_repository
   print_repository:
     path: packages/print_repository
+  banner_repository:
+    path: packages/banner_repository
 
     
-  awesome_dialog: ^3.2.0
+  # awesome_dialog: ^3.2.0
   equatable: ^2.0.5
   firebase_auth: ^4.16.0
   firebase_core: ^2.25.0
@@ -59,7 +61,11 @@ dependencies:
   percent_indicator: ^4.2.3
   image: ^4.1.7
   image_picker: ^1.1.0
- 
+  url_strategy: ^0.2.0
+  easy_sidemenu: ^0.6.0
+  material_dialogs: ^1.1.4
+  lottie: ^2.7.0
+  cached_network_image: ^3.3.1
  
   
 
@@ -91,7 +97,7 @@ flutter:
 flutter_native_splash:
   android: true
   ios: true
-  web: true
+  web: false
   background_image: assets/image/splash.png
   image: assets/image/icon_splash.png
   android_12:
