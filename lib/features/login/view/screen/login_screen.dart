@@ -37,12 +37,6 @@ class LoginView extends StatefulWidget {
 class _LoginViewState extends State<LoginView> {
   final TextEditingController _emailCtrl = TextEditingController();
   final TextEditingController _passwordCtrl = TextEditingController();
-  @override
-  void reassemble() {
-    // TODO: implement reassemble
-    super.reassemble();
-  }
-
   final _formKey = GlobalKey<FormState>();
   final _oneUpperCase = ValueNotifier(false);
   final _oneLowerCase = ValueNotifier(false);
@@ -91,7 +85,7 @@ class _LoginViewState extends State<LoginView> {
                             title: AppString.errorTitle,
                             desc: state.errorMessage, btnCancelOnPress: () {
                           context.read<LoginCubit>().resetStatus();
-                          context.pop();
+                          pop(context, 2);
                         });
                         break;
                       case FormzSubmissionStatus.success:

@@ -85,6 +85,7 @@ flutter:
   assets:
     - assets/map_style.txt
     - assets/image/
+    - assets/animations/
     - assets/image/banner/
     - assets/image/plate_food/
     - assets/image/image_recipe/
